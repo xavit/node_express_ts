@@ -7,7 +7,7 @@ const app = express();
 app.get<{}, MessageResponse>("/", (req, res) => {
   res.json({
     status: "success",
-    message: "Root route",
+    message: "API is running",
     data: null,
   } as MessageResponse);
 });
